@@ -7,20 +7,23 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Selamat Datang"
+        android:text="Silahkan Login atau Register"
         android:textStyle="bold"
         style="@style/TextAppearance.AppCompat.Headline"
         android:textSize="25sp"
         android:textAlignment="center"
-        android:layout_margin="20sp"/>
+        android:layout_margin="10sp"
+        android:fontFamily="monospace"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#626562"
+        android:background="@color/black"
         android:hint="Masukkan Nama"
         android:inputType="text"
         android:textColor="#fff"
@@ -37,8 +40,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
-        android:background="#626562"
-        android:hint="Masukan NIM"
+        android:background="@color/black"
+        android:hint="MasukKan NIM"
         android:inputType="number"
         android:padding="16dp"
         android:textColor="#fff"
@@ -50,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
-        android:background="#626562"
+        android:background="@color/black"
         android:hint="Masukkan Password"
         android:padding="16dp"
         android:textColor="#fff"
@@ -63,14 +66,17 @@
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
         android:text="Register"
-        android:id="@+id/register"/>
+        android:id="@+id/register"
+        android:textColor="@color/black"
+        />
 
     <Button
         android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20sp"
-        android:text="Login" />
+        android:text="Login"
+        android:textColor="@color/black" />
 
 
 </LinearLayout>
